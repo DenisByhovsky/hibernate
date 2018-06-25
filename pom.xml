@@ -1,0 +1,25 @@
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.byhovsky.hibernate</groupId>
+    <artifactId>Hibernate-eaxmple</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+
+    <properties>
+        <hibernate.ver>4.3.5.Final</hibernate.ver>
+        <mysql.ver>5.0.5</mysql.ver>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-core</artifactId>
+            <version>${hibernate.ver}</version>
+        </dependency>
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>${mysql.ver}</version>
+        </dependency>
+    </dependencies>
+</project>
